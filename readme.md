@@ -17,3 +17,10 @@
 5. 不同的環境有不同的設定檔
 
 6. 現在弄到一半
+
+7. 剛才看到android的部分，需要安裝android studio。
+然後稍微介紹了一下android開發的流程。
+並且需要在`platform/android`路徑下進行編輯
+編輯完成後的檔案，則需要透過cordova在把android的檔案部署到其他的環境去。
+
+8. 如果透過第三方的plugin而使用android的資源，這邊是額外提供一個叫做plugman的套件在管理這些plugin。

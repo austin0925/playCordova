@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  templeAP:
+    container_name: templeAP
+    restart: always
+    image: node:7.10.0-onbuild
+    command: 
+    - top -b
+    volumes:
+    - ~/docker/dataAP:/var/lib/dataAP:Z
+
+  templeDB:
+    container_name: templeDB
+    restart: always
+    image: couchdb:1.6.1-couchperuser
+    volumes:
+    - ~/docker/dataDB:/var/lib/dataDB:Z

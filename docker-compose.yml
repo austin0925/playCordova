@@ -5,8 +5,8 @@ services:
     container_name: templeAP
     restart: always
     image: node:7.10.0-onbuild
-    command: 
-    - top -b
+    enviroment: 
+    - NPM_CONFIG_LOGLEVEL=info
     volumes:
     - ~/docker/dataAP:/var/lib/dataAP:Z
 

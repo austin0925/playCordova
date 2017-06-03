@@ -4,7 +4,7 @@ services:
   templeAP:
     container_name: templeAP
     restart: always
-    image: node:7.10.0-onbuild
+    image: austin39/node
     enviroment: 
     - NPM_CONFIG_LOGLEVEL=info
     volumes:

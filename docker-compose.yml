@@ -5,7 +5,11 @@ services:
     container_name: templeAP
     restart: always
     image: austin39/node
-    enviroment: 
+    depends_on:
+    - templeDB
+    ports:
+    - "9000:9000"
+    environment: 
     - NPM_CONFIG_LOGLEVEL=info
     volumes:
     - ~/docker/dataAP:/var/lib/dataAP:Z

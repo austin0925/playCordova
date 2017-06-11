@@ -7,7 +7,7 @@ set -e
 # source /usr/src/chatapp/
 
 echo "check chatapp directory"
-ls /usr/src/chatapp/
-
+cd /usr/src/chatapp/
+ls
 echo "call app.js"
-node /usr/src/chatapp/app.js
+node app.js

@@ -1,12 +1,13 @@
 #!/bin/bash
 
-echo "Hello World"
+echo "OS ready ..."
 
 set -e
 
-#source /usr/src/myvol
+# source /usr/src/chatapp/
 
-ls > ls.txt
-echo "hello"
+echo "check chatapp directory"
+ls /usr/src/chatapp/
 
+echo "call app.js"
 node /usr/src/chatapp/app.js

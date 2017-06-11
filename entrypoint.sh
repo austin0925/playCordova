@@ -9,4 +9,4 @@ set -e
 ls > ls.txt
 echo "hello"
 
-node /usr/src/myvol/test.js
+node /usr/src/chatapp/app.js

@@ -36,3 +36,5 @@
 13. 但是在軟體升級的部分就比較麻煩一點，無法直接使用到electron的軟體更新機制。（看來可能需要透過使用docker的機制來更新）
 
 14. 接下來就把Express的專案拿起來玩玩看～玩了之後想把express的專案推到node image下跑跑看，看看結果如何？
+
+15. [官方文件](https://cordova.apache.org/docs/en/10.x/guide/overview/index.html)
